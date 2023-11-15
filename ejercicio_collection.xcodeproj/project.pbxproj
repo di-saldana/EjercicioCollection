@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		EF743DC12B0535F50023CF36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF743DC02B0535F50023CF36 /* AppDelegate.swift */; };
 		EF743DC32B0535F50023CF36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF743DC22B0535F50023CF36 /* SceneDelegate.swift */; };
-		EF743DC52B0535F50023CF36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF743DC42B0535F50023CF36 /* ViewController.swift */; };
 		EF743DC82B0535F50023CF36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF743DC62B0535F50023CF36 /* Main.storyboard */; };
 		EF743DCA2B0535F70023CF36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF743DC92B0535F70023CF36 /* Assets.xcassets */; };
 		EF743DCD2B0535F70023CF36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF743DCB2B0535F70023CF36 /* LaunchScreen.storyboard */; };
+		EF743DD52B0537150023CF36 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF743DD42B0537150023CF36 /* CollectionViewController.swift */; };
+		EF743DDB2B0537A60023CF36 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF743DDA2B0537A60023CF36 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EF743DBD2B0535F50023CF36 /* ejercicio_collection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ejercicio_collection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF743DC02B0535F50023CF36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF743DC22B0535F50023CF36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EF743DC42B0535F50023CF36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EF743DC72B0535F50023CF36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF743DC92B0535F70023CF36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF743DCC2B0535F70023CF36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF743DCE2B0535F70023CF36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF743DD42B0537150023CF36 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		EF743DDA2B0537A60023CF36 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				EF743DC02B0535F50023CF36 /* AppDelegate.swift */,
 				EF743DC22B0535F50023CF36 /* SceneDelegate.swift */,
-				EF743DC42B0535F50023CF36 /* ViewController.swift */,
 				EF743DC62B0535F50023CF36 /* Main.storyboard */,
 				EF743DC92B0535F70023CF36 /* Assets.xcassets */,
 				EF743DCB2B0535F70023CF36 /* LaunchScreen.storyboard */,
 				EF743DCE2B0535F70023CF36 /* Info.plist */,
+				EF743DD42B0537150023CF36 /* CollectionViewController.swift */,
+				EF743DDA2B0537A60023CF36 /* CollectionViewCell.swift */,
 			);
 			path = ejercicio_collection;
 			sourceTree = "<group>";
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF743DC52B0535F50023CF36 /* ViewController.swift in Sources */,
 				EF743DC12B0535F50023CF36 /* AppDelegate.swift in Sources */,
+				EF743DD52B0537150023CF36 /* CollectionViewController.swift in Sources */,
+				EF743DDB2B0537A60023CF36 /* CollectionViewCell.swift in Sources */,
 				EF743DC32B0535F50023CF36 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
